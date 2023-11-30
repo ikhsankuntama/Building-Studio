@@ -1,71 +1,117 @@
+
+
 body {
     font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    background-color: #fff;
     margin: 0;
-    padding: 0;
-    background-color: #e6e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 450px;
+    margin-right: 453px;    
 }
 
 .container {
-    max-width: 800px;
+    max width: 100vh;
     margin: 0 auto;
-    padding: 20px;
+    display: block;
+    margin-left:0px;
 }
 
+
 .container-img {
-    float: right;
+    float: left;
+    position: absolute;
+    top: 18px;
+    left: 432px !important;
     margin: 20px;
-    width: 150px;
+    width: 148px;
     height: auto;
-    
+    z-index:0; 
 }
 
 .container-h1 {
-    color: rgba(235, 103, 15, 0.911);
+    position: relative;
+    left: 150px !important;
+    top: -10px;
+    margin-left: 0px !important;
+    color: #d46025;
     font-family:Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-style: bold;
     text-decoration: underline;
+    z-index: 1;
+}
+
+.content-h1 {
+    position: relative;
+    margin: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    
 }
 
 header {
-    background-color: #1f1e1e;
+    background-color: #1f1f1f;
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0;
+    width: 100vh;
 }
 
 nav ul {
+    background-color: #eaebef;
+    position: relative;
+    float:right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: -18px;
+    margin-right: 5.5px;
+    padding: 0px;
+    z-index: 1;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
-
+    position: relative;
+    display:inline-table;
+    border: 3px solid #1f1f1f;
+    background-color: rgb(102, 102, 102);
+    margin: -5px;
+    z-index: 1;
 }
 
 .ul-li {
-    color: rgb(146, 146, 146);
+    color: #fff;
     text-decoration: none;
+    padding: 15.4px;
+    height: auto;
+    display: flex;
+    padding: -7px;
+    margin-bottom: 0px;
+    
 }
 
 .ul-li:hover {
-    color: white;
+    color: #1f1f1f;
     transition-delay: .25s;
     animation-delay: .1s;
 }
 
 section {
-    margin-bottom: 40px;
+    background-color: #eaebef;
+    padding: 10px;
 }
 
 .p2-a {
     color: black;
     text-decoration: none;
+    margin left: 20px;
+    line-height: 1.5;
 }
 
 .p2-a:hover {
-    color: rgb(1, 39, 255);
+    color: blue;
     text-decoration: underline;
 }
 
@@ -73,6 +119,10 @@ section {
     font-style: italic;
     text-decoration: underline;
     font-size: 13px;
+}
+
+.container {
+    margin-bottom: 20px;
 }
 
 footer {
